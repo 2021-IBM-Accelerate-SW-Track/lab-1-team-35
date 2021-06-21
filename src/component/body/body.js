@@ -24,7 +24,7 @@ export default function Body(){
   return (<div>
 
     <form  noValidate autoComplete="off">
-      <TextField id="filled-basic" label="Enter task" variant="filled" />
+      <TextField id="filled-basic" label="Enter task" variant="filled"/>
     </form>
 
     <Button variant="contained" color="primary">
@@ -46,6 +46,7 @@ export default function Body(){
         </ListItemSecondaryAction>
       </ListItem>
     </List>
+
   </div>)
     
 }
